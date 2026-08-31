@@ -363,10 +363,12 @@ main {
   background: linear-gradient(180deg, var(--surface) 0%, var(--surface-soft) 100%);
 }
 
+/* יחס אחיד 4:5 (נוטה לאנכי) לכל המדיה בכרטיסים - תמונות אנכיות מהסלולרי כמעט לא נחתכות */
 .media-item img,
 .media-item video {
   width: 100%;
-  height: 168px;
+  aspect-ratio: 4 / 5;
+  height: auto;
   object-fit: cover;
   border-radius: 0.8rem;
   border: 1px solid #d0dee8;
@@ -374,11 +376,17 @@ main {
   background: #edf3f8;
 }
 
+/* סרטון לעולם לא נחתך בזמן ניגון - מוצג בשלמותו על רקע כהה */
+.media-item video {
+  object-fit: contain;
+  background: #0e1b2a;
+}
+
 .media-empty {
   display: grid;
   place-content: center;
   width: 100%;
-  height: 168px;
+  aspect-ratio: 4 / 5;
   border-radius: 0.8rem;
   border: 1px dashed #b9d0dd;
   color: #4e6d82;
@@ -593,10 +601,7 @@ main {
     justify-content: center;
   }
 
-  .hero-figure img,
-  .media-item img,
-  .media-item video,
-  .media-empty {
+  .hero-figure img {
     height: 188px;
   }
 

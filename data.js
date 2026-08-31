@@ -41,6 +41,11 @@ window.siteData = {
         description: "מצלמות מתקדמות לאיתור בעיות בצנרת.",
         image: "assets/images/equipment/equipment-04.jpg",
       },
+      {
+        title: "סלילת כבישים ושיקום שטח",
+        description: "ציוד כבד לביצוע עבודות עפר ושיקום שטח.",
+        image: "assets/images/equipment/equipment-05.jpg",
+      },
     ],
 
     clients: [

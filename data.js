@@ -52,17 +52,17 @@ window.siteData = {
       {
         title: "לקוח ארגוני #1",
         description: "פרויקט תחזוקת תשתיות שוטפת.",
-        image: "assets/images/clients/client-01.jpg",
+        image: "assets/images/big-clients/client-01.jpg",
       },
       {
         title: "לקוח ארגוני #2",
         description: "שיתוף פעולה ארוך טווח.",
-        image: "assets/images/clients/client-02.jpg",
+        image: "assets/images/big-clients/client-02.jpg",
       },
       {
         title: "לקוח ארגוני #3",
         description: "עבודה לפי לו\"ז צפוף וללא פשרות.",
-        image: "assets/images/clients/client-03.jpg",
+        image: "assets/images/big-clients/client-03.jpg",
       },
     ],
 

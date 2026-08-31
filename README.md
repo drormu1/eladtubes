@@ -31,7 +31,7 @@ window.siteData = {
 ### תמונות
 - `assets/images/home-hero/`
 - `assets/images/equipment/`
-- `assets/images/clients/`
+- `assets/images/big-clients/`
 - `assets/images/projects-house-committees/`
 - `assets/images/team/`
 

@@ -15,11 +15,11 @@ These images were downloaded as free stock placeholders.
   - Source: https://images.pexels.com/photos/162539/architecture-building-amsterdam-blue-sky-162539.jpeg?auto=compress&cs=tinysrgb&w=1400
 
 ## Clients
-- assets/images/clients/client-01.jpg
+- assets/images/big-clients/client-01.jpg
   - Source: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1400
-- assets/images/clients/client-02.jpg
+- assets/images/big-clients/client-02.jpg
   - Source: https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1400
-- assets/images/clients/client-03.jpg
+- assets/images/big-clients/client-03.jpg
   - Source: https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1400
 
 ## House Committee Projects

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# לאחר העלאת האתר לאינטרנט: לעדכן את הכתובת לכתובת האמיתית של האתר
+Sitemap: https://REPLACE-WITH-YOUR-SITE-URL/sitemap.xml

@@ -36,6 +36,11 @@ window.siteData = {
         description: "ציוד מקצועי לעבודה נקייה ומדויקת.",
         image: "assets/images/equipment/equipment-03.jpg",
       },
+           {
+        title: "צילום תת קרקעי לצינורות מתכת וביוב",
+        description: "מצלמות מתקדמות לאיתור בעיות בצנרת.",
+        image: "assets/images/equipment/equipment-04.jpg",
+      },
     ],
 
     clients: [

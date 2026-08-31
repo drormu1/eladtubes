@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- לאחר העלאת האתר לאינטרנט: לעדכן את הכתובת לכתובת האמיתית של האתר -->
+<!-- אם בעתיד יחובר דומיין משלנו (למשל eladtubes.co.il) — לעדכן את הכתובת כאן -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://REPLACE-WITH-YOUR-SITE-URL/</loc>
+    <loc>https://drormu1.github.io/eladtubes/</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>

@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-# לאחר העלאת האתר לאינטרנט: לעדכן את הכתובת לכתובת האמיתית של האתר
-Sitemap: https://REPLACE-WITH-YOUR-SITE-URL/sitemap.xml
+# אם בעתיד יחובר דומיין משלנו (למשל eladtubes.co.il) — לעדכן את הכתובת כאן
+Sitemap: https://drormu1.github.io/eladtubes/sitemap.xml

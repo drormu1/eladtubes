@@ -2,7 +2,7 @@
 
 ## Project
 Marketing one-page website (Hebrew, RTL) for אלעד שמחי — contractor in Israel:
-sewer work, earthworks, plumbing. Service area: Petah Tikva and central Israel.
+sewer work, earthworks, plumbing. Based in Petah Tikva / central Israel; serves the whole country. SEO copy intentionally leads with local keywords (see 2026-08-31 note below).
 
 ## Goals
 - Small, clear, conversion-focused. Contact actions first: phone + WhatsApp.
@@ -25,7 +25,11 @@ Static site, no build step. Must keep working when opened directly from disk (fi
 
 ## History / Decisions
 - 2026-08-31: "מספר ישיר" copy box removed from #contact per owner request — do not re-add.
+- 2026-08-31: "טלפון ישיר" strip removed from hero (redundant next to the call button; number still shows in topbar + #contact) — do not re-add.
 - 2026-08-31: data split out of script.js into data.js (chosen over fetch+JSON to keep file:// working).
 - 2026-08-31: Mobile (≤980px): compact one-row header with hamburger menu (.nav-toggle toggles .nav-open on .topbar); ≤600px: floating buttons become a fixed bottom action bar (call/WhatsApp). Do not revert to stacked column topbar.
 - Keep copy concise and action-oriented.
+- 2026-08-31: Owner clarified service area is nationwide. Visible copy says "שירות בכל הארץ"; title/meta/schema still lead with פתח תקווה/מרכז because local keywords convert better — do not strip them.
+- 2026-08-31: Canonical service phrase order everywhere (copy, title, meta, schema): "עבודות ביוב, אינסטלציה ועפר" — sewer, then plumbing, then earthworks. Do not reorder.
+- 2026-09-01: Accessibility baseline per ת"י 5568 / WCAG 2.0 AA — skip link, visible :focus-visible styles, prefers-reduced-motion support, scroll-margin under sticky header, aria-label on icon-only WhatsApp topbar button and on gallery videos, accessibility statement page (`accessibility.html`, linked from footer + sitemap). WhatsApp greens darkened to `--whatsapp`/`--whatsapp-strong` (#11813a/#0e7a35) so white text passes AA contrast — do not brighten back to #25d366. No third-party accessibility widget by design; the site itself complies.
 - 2026-08-31: SEO baseline added — LocalBusiness (Plumber) JSON-LD injected by script.js from `siteData.business` in data.js, OG tags + local keywords in index.html, robots.txt + sitemap.xml. Placeholder `REPLACE-WITH-YOUR-SITE-URL` and empty `siteUrl` must be filled once the site is deployed.

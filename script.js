@@ -9,7 +9,7 @@ function renderMedia(item) {
 
   if (item.video) {
     return `
-      <video controls preload="metadata">
+      <video controls preload="metadata" aria-label="${item.title}">
         <source src="${item.video}" type="video/mp4" />
       </video>
     `;
@@ -88,6 +88,25 @@ function injectBusinessSchema() {
 }
 
 injectBusinessSchema();
+
+// מציג את רשימת אזורי השירות מ-data.js בסקשן צור קשר.
+function renderServiceAreas() {
+  const business = window.siteData.business;
+  if (!business || !business.areaServed) return;
+
+  const generalAreas = ["מרכז הארץ", "כל הארץ"];
+  const cities = business.areaServed.filter((area) => !generalAreas.includes(area));
+
+  const chips = cities
+    .map((city) => `<span class="area-chip">${city}</span>`)
+    .join("");
+
+  document.querySelectorAll("[data-service-areas]").forEach((el) => {
+    el.innerHTML = `${chips}<span class="area-chip area-chip-highlight">שירות בכל הארץ</span>`;
+  });
+}
+
+renderServiceAreas();
 
 function wireNavToggle() {
   const topbar = document.querySelector(".topbar");

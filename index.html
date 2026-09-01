@@ -3,22 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>אלעד שמחי | עבודות ביוב, עפר ואינסטלציה בפתח תקווה והמרכז</title>
+    <title>אלעד שמחי | עבודות ביוב, אינסטלציה ועפר בפתח תקווה והמרכז</title>
     <meta
       name="description"
-      content="אלעד שמחי - פתיחת סתימות, החלפת קווי ביוב, עבודות עפר ואינסטלציה בפתח תקווה ומרכז הארץ. שירות מקצועי לוועדי בתים, עסקים ולקוחות פרטיים."
+      content="אלעד שמחי - פתיחת סתימות, החלפת קווי ביוב, אינסטלציה ועבודות עפר בפתח תקווה ומרכז הארץ. שירות מקצועי לוועדי בתים, עסקים ולקוחות פרטיים."
     />
     <!-- תגיות שיתוף (וואטסאפ / פייסבוק) -->
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="he_IL" />
-    <meta property="og:title" content="אלעד שמחי | עבודות ביוב, עפר ואינסטלציה בפתח תקווה והמרכז" />
+    <meta property="og:title" content="אלעד שמחי | עבודות ביוב, אינסטלציה ועפר בפתח תקווה והמרכז" />
     <meta
       property="og:description"
-      content="פתיחת סתימות, החלפת קווי ביוב, עבודות עפר ואינסטלציה. שירות מהיר בפתח תקווה ומרכז הארץ."
+      content="פתיחת סתימות, החלפת קווי ביוב, אינסטלציה ועבודות עפר. שירות מהיר בפתח תקווה ומרכז הארץ."
     />
-    <!-- לאחר העלאת האתר לאינטרנט: להסיר את ההערה ולעדכן את הכתובת בשתי השורות הבאות -->
-    <!-- <meta property="og:url" content="https://REPLACE-WITH-YOUR-SITE-URL/" /> -->
-    <!-- <meta property="og:image" content="https://REPLACE-WITH-YOUR-SITE-URL/assets/images/home-hero/hero-01.jpg" /> -->
+    <meta property="og:url" content="https://drormu1.github.io/eladtubes/" />
+    <meta property="og:image" content="https://drormu1.github.io/eladtubes/assets/images/home-hero/hero-01.jpg" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230b7285'/%3E%3Cpath d='M22 17 v11 a9 9 0 0 0 9 9 h13' fill='none' stroke='%23fff' stroke-width='8'/%3E%3Crect x='16' y='13' width='12' height='4.5' rx='1.5' fill='%23fff'/%3E%3Crect x='43' y='31' width='4.5' height='12' rx='1.5' fill='%23fff'/%3E%3Cpath d='M41 15 C45 20.5 45 24.5 41 24.5 C37 24.5 37 20.5 41 15 Z' fill='%23ff6b6b'/%3E%3C/svg%3E" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,6 +28,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#home">דילוג לתוכן הראשי</a>
     <header class="topbar">
       <a class="brand" href="#home" aria-label="דף הבית">
         <span class="brand-mark" aria-hidden="true">
@@ -42,7 +42,10 @@
             <path d="M22 52 h20" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.35" />
           </svg>
         </span>
-        <span class="brand-text">אלעד שמחי עבודות עפר</span>
+        <span class="brand-text">
+          <span class="brand-name">אלעד שמחי</span>
+          <span class="brand-tagline">קבלן עבודות ביוב, אינסטלציה ועפר</span>
+        </span>
       </a>
       <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="פתיחת תפריט ניווט">
         <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none"/></svg>
@@ -50,8 +53,8 @@
       <nav id="site-nav" class="nav" aria-label="ניווט ראשי">
         <a href="#services">שירותים</a>
         <a href="#equipment">הציוד שלנו</a>
-        <a href="#clients">פרויקטים לארגונים ורשויות מקומיות</a>
-        <a href="#projects">פרויקטים לוועדי בתים</a>
+        <a href="#clients">ארגונים ורשויות</a>
+        <a href="#projects">ועדי בתים</a>
         <a href="#team">הצוות</a>
         <a href="#contact">צור קשר</a>
       </nav>
@@ -59,7 +62,7 @@
         <span class="topbar-phone-label">טלפון:</span>
         <span class="topbar-phone-value" data-phone-display>050-000-0000</span>
       </div>
-      <a class="cta-nav btn-whatsapp" data-whatsapp-link href="#" target="_blank" rel="noopener noreferrer">
+      <a class="cta-nav btn-whatsapp" data-whatsapp-link href="#" target="_blank" rel="noopener noreferrer" aria-label="שליחת הודעת וואטסאפ">
         <span class="btn-icon" aria-hidden="true">
           <svg viewBox="0 0 24 24" focusable="false">
             <path d="M12 3C7.03 3 3 6.73 3 11.33c0 2.02.79 3.87 2.12 5.32L4 21l4.59-1.04A9.46 9.46 0 0 0 12 20c4.97 0 9-3.73 9-8.33S16.97 3 12 3Zm0 15a7.4 7.4 0 0 1-3.04-.64l-.31-.14-2.72.62.61-2.51-.2-.29A6.2 6.2 0 0 1 5 11.33C5 7.85 8.14 5 12 5s7 2.85 7 6.33S15.86 18 12 18Zm3.07-4.73c-.17-.08-1.03-.49-1.18-.54-.16-.06-.27-.08-.38.08-.11.16-.43.54-.53.65-.1.11-.2.13-.37.04a5.72 5.72 0 0 1-1.69-1.05 6.31 6.31 0 0 1-1.17-1.42c-.12-.2 0-.3.09-.39.09-.09.17-.2.25-.3.08-.1.11-.17.17-.29.05-.11.03-.21-.01-.3-.04-.08-.38-.93-.53-1.27-.14-.34-.28-.29-.38-.29h-.33c-.11 0-.29.04-.44.21-.15.17-.57.56-.57 1.37s.58 1.58.66 1.69c.08.11 1.13 1.72 2.74 2.41.38.16.68.26.91.33.38.12.73.1 1 .06.31-.05 1.03-.42 1.18-.82.14-.4.14-.75.1-.82-.04-.08-.15-.12-.32-.2Z"/>
@@ -72,12 +75,11 @@
     <main id="home">
       <section class="hero reveal">
         <div class="hero-content">
-          <p class="eyebrow">פתרונות תשתית שמקדמים את הפרויקט</p>
-          <h1>ביוב, עפר ואינסטלציה לביצוע נקי, מהיר וללא הפתעות</h1>
+          <p class="eyebrow">קבלן מורשה לעבודות תשתית</p>
+          <h1>עבודות ביוב, אינסטלציה ועפר בביצוע מקצועי ובאחריות מלאה</h1>
           <p class="hero-text">
-            אלעד שמחי וצוות השטח נותנים מענה מקצועי לוועדי בתים, קבלנים ועסקים במרכז,
-            משלב התכנון ועד המסירה. אתם מקבלים עבודה מדויקת בשטח, תקשורת ברורה לאורך הדרך
-            ועמידה גבוהה בתקנים ובלוחות זמנים.
+            אלעד שמחי וצוות שטח מנוסה מלווים ועדי בתים, קבלנים ועסקים משלב התכנון
+            ועד המסירה — עבודה לפי התקן, תקשורת ברורה לאורך כל הדרך ועמידה בלוחות זמנים.
           </p>
           <div class="hero-actions">
             <a class="btn btn-phone" data-phone-link href="#">
@@ -97,14 +99,10 @@
               <span>שלחו הודעה בוואטסאפ</span>
             </a>
           </div>
-          <div class="hero-phone-strip" aria-label="מספר טלפון מהיר">
-            <span class="hero-phone-label">טלפון ישיר:</span>
-            <span class="hero-phone-value" data-phone-display>050-000-0000</span>
-          </div>
           <ul class="highlights">
-            <li>מענה מהיר לפרויקטים במרכז</li>
-            <li>עבודה לפי תקן עם אחריות מקצועית</li>
-            <li>ביצוע מסודר שמצמצם עיכובים בשטח</li>
+            <li>שיקום מלא והחזרת השטח לקדמותו בסיום העבודה</li>
+            <li>ציוד ייעודי לכל שלב — חפירה, שטיפת קווים וצילום צנרת</li>
+            <li>מענה מהיר וזמינות גבוהה — שירות בכל הארץ</li>
           </ul>
         </div>
         <div class="hero-media card">
@@ -193,14 +191,18 @@
         <div class="business-details">
           <p><strong>טלפון:</strong> <span data-phone-display>050-000-0000</span></p>
           <p><strong>אימייל:</strong> eladtubes@gmail.com</p>
-          <p><strong>אזור שירות:</strong> פתח תקווה והמרכז</p>
+          <div class="service-areas">
+            <strong>אזורי שירות:</strong>
+            <span class="service-areas-list" data-service-areas>פתח תקווה והמרכז</span>
+          </div>
           <p><strong>כתובת משרד:</strong> שלום שבזי 22, פתח תקווה</p>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <p>© אלעד שמחי עבודות ביוב, עפר ואינסטלציה. כל הזכויות שמורות.</p>
+      <p>© אלעד שמחי עבודות ביוב, אינסטלציה ועפר. כל הזכויות שמורות.</p>
+      <p><a class="footer-link" href="accessibility.html">הצהרת נגישות</a></p>
     </footer>
 
     <div class="floating-actions" aria-label="פעולות מהירות">
